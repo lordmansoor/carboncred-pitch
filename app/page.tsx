@@ -1,7 +1,5 @@
 "use client";
 
-import { ChevronRight, Zap, Shield, TrendingUp, Clock, DollarSign } from "lucide-react";
-
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-green-900 to-slate-900">
@@ -43,7 +41,7 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           {/* Problem 1: Airlines */}
           <div className="bg-slate-800/50 border border-red-500/30 rounded-xl p-8">
-            <Clock className="w-12 h-12 text-red-500 mb-4" />
+            <div className="text-4xl mb-4">⏱️</div>
             <h4 className="text-xl font-bold text-white mb-3">Airlines Are Mandated</h4>
             <p className="text-gray-400">
               Starting 2024, all international airlines must offset CO₂ emissions under CORSIA.
@@ -54,7 +52,7 @@ export default function Home() {
 
           {/* Problem 2: Supply Shortage */}
           <div className="bg-slate-800/50 border border-red-500/30 rounded-xl p-8">
-            <TrendingUp className="w-12 h-12 text-red-500 mb-4" />
+            <div className="text-4xl mb-4">📈</div>
             <h4 className="text-xl font-bold text-white mb-3">Supply Crisis</h4>
             <p className="text-gray-400">
               Only 33 million credits available in the entire market.
@@ -65,7 +63,7 @@ export default function Home() {
 
           {/* Problem 3: Fragmented */}
           <div className="bg-slate-800/50 border border-red-500/30 rounded-xl p-8">
-            <DollarSign className="w-12 h-12 text-red-500 mb-4" />
+            <div className="text-4xl mb-4">💰</div>
             <h4 className="text-xl font-bold text-white mb-3">Fragmented & Expensive</h4>
             <p className="text-gray-400">
               Brokers charge 15-30% commissions. Consulting fees: $100K+.
@@ -89,7 +87,7 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Solution 1 */}
           <div className="bg-slate-800/50 border border-green-500/30 rounded-xl p-8">
-            <Zap className="w-12 h-12 text-green-400 mb-4" />
+            <div className="text-4xl mb-4">⚡</div>
             <h4 className="text-xl font-bold text-white mb-3">1. Instant Access</h4>
             <p className="text-gray-400">
               Airlines get carbon credits in <strong>1 week</strong>, not 6 months.
@@ -100,7 +98,7 @@ export default function Home() {
 
           {/* Solution 2 */}
           <div className="bg-slate-800/50 border border-green-500/30 rounded-xl p-8">
-            <Shield className="w-12 h-12 text-green-400 mb-4" />
+            <div className="text-4xl mb-4">🛡️</div>
             <h4 className="text-xl font-bold text-white mb-3">2. Fair & Transparent</h4>
             <p className="text-gray-400">
               No hidden commissions. Transparent pricing.
@@ -143,9 +141,7 @@ export default function Home() {
           </div>
 
           {/* Arrow */}
-          <div className="flex justify-center">
-            <ChevronRight className="w-8 h-8 text-green-500 transform rotate-90" />
-          </div>
+          <div className="flex justify-center text-3xl">↓</div>
 
           {/* Step 2 */}
           <div className="flex gap-8 items-start">
@@ -166,9 +162,7 @@ export default function Home() {
           </div>
 
           {/* Arrow */}
-          <div className="flex justify-center">
-            <ChevronRight className="w-8 h-8 text-green-500 transform rotate-90" />
-          </div>
+          <div className="flex justify-center text-3xl">↓</div>
 
           {/* Step 3 */}
           <div className="flex gap-8 items-start">
@@ -189,9 +183,7 @@ export default function Home() {
           </div>
 
           {/* Arrow */}
-          <div className="flex justify-center">
-            <ChevronRight className="w-8 h-8 text-green-500 transform rotate-90" />
-          </div>
+          <div className="flex justify-center text-3xl">↓</div>
 
           {/* Step 4 */}
           <div className="flex gap-8 items-start">
